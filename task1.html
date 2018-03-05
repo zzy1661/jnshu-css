@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>九宫格</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+    	body {
+    		margin: 0;
+    	}
+    	.wrap {
+    		overflow: hidden;
+    		margin: 0 auto;
+    	}
+    	.item {
+    		width: 30%;
+    		background: rgb(254, 165, 0);
+    		float: left;
+    		margin: 2.5% 0 0 2.5%;
+    		border-radius: 6px;
+    	}
+    	.item:after {
+			  content: '';
+			  display: block;
+			  margin-top: 100%;
+			}
+    </style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+	</div>
+</body>
+
+</html>
